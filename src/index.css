@@ -24,11 +24,11 @@ body,html{
   }
 
   a{
-    @apply cursor-pointer
-    hover:text-gray-400;
+    @apply cursor-pointer;
+    /* hover:text-opacity-20; */
   }
   button{
-    @apply text-white uppercase  px-[10px] py-1 rounded-[20px] 
-     text-xs font-bold
+    @apply text-gray-100 uppercase  px-[10px] py-1 rounded-[20px] 
+     text-xs font-bold flex justify-center items-center
   }
 }
